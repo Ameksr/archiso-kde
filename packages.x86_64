@@ -1,3 +1,4 @@
+## Baseline
 base
 cloud-init
 hyperv
@@ -11,10 +12,12 @@ qemu-guest-agent
 syslinux
 virtualbox-guest-utils-nox
 
+## DE
 sddm
 plasma-desktop
+
+## Additional packages
 firefox
 
 ## Video drivers
 nvidia
-nvidia-utils

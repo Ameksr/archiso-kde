@@ -1,0 +1,1 @@
+exec /usr/lib/plasma-dbus-run-session-if-needed startplasma-wayland

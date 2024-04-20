@@ -1,23 +1,39 @@
 ## Baseline
 base
-cloud-init
-hyperv
 linux
-mkinitcpio
 mkinitcpio-archiso
-open-vm-tools
-openssh
 pv
-qemu-guest-agent
 syslinux
-virtualbox-guest-utils-nox
+sudo
+
+## Pacman
+archlinux-keyring
 
 ## DE
-sddm
 plasma-desktop
 
 ## Additional packages
 firefox
+konsole
+dolphin
 
-## Video drivers
+## Drivers
+
+### Wayland
+libinput
 nvidia
+mesa
+
+### CPU
+intel-ucode
+amd-ucode
+
+### Audio
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+
+### VM
+open-vm-tools
+qemu-guest-agent
+virtualbox-guest-utils

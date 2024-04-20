@@ -1,6 +1,8 @@
 ## Baseline
 base
 linux
+linux-firmware
+linux-firmware-marvell
 mkinitcpio-archiso
 pv
 syslinux
@@ -33,8 +35,13 @@ amd-ucode
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+plasma-pa
 
 ### VM
 open-vm-tools
 qemu-guest-agent
 virtualbox-guest-utils
+
+### Network
+networkmanager
+plasma-nm
